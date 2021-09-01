@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans&display=swap');
+.banner-section {
+	background: radial-gradient(circle, rgba(6, 22, 58, 0.8) 0%, #06163a 30%);
+	height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .container {
+        width: 900px;
+        text-align: center;
+        .header {
+            font-size: 24px;
+            margin-bottom: 30px;
+            .myDate {
+                color: greenyellow;
+            }
+        }
+    }
+}
+body {
+	padding: 0;
+	margin: 0;
+	color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+.countdown {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;margin: 0;
+    li {
+        list-style: none;
+        width: calc((100% / 4) - 15px);
+        border-radius: 5px;
+        text-align: center;
+        .title {
+            font-size: 50px;
+            line-height: 1;
+            font-weight: 400;
+            font-family: 'Bungee Inline', cursive;
+            color: #06163a;
+        }
+        padding: 20px 30px;
+        background: rgba(white, .7);
+    }
+}

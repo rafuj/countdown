@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Open+Sans&display=swap");
+.banner-section {
+  background: radial-gradient(circle, rgba(6, 22, 58, 0.8) 0%, #06163a 30%);
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-section .container {
+  width: 900px;
+  text-align: center;
+}
+
+.banner-section .container .header {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.banner-section .container .header .myDate {
+  color: greenyellow;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.countdown {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.countdown li {
+  list-style: none;
+  width: calc((100% / 4) - 15px);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 30px;
+  background: rgba(255, 255, 255, 0.7);
+  color: #06163a;
+  font-size: 20px;
+}
+
+.countdown li .title {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'Bungee Inline', cursive;
+  color: #06163a;
+}
+/*# sourceMappingURL=style.css.map */
